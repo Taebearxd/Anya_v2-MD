@@ -6,14 +6,14 @@ global.author = process.env.Author || "@PikaBotz"
 global.packname = process.env.PackName || "Queen Anya v2 MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
+global.prefa = process.env.Prefix || ['.'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.ownername = process.env.Owner_Name || "Taebearxd" 
+global.ownernumber = process.env.Owner_Number || "917439317360" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
-global.instagramId = process.env.Insta || "8.08_only_mine" 
-global.email = process.env.Email_Id || "example@example.com" 
+global.instagramId = process.env.Insta || "" 
+global.email = process.env.Email_Id || "" 
 
 
 let badWords = [
@@ -76,15 +76,15 @@ global.image_3 = readFileSync("./lib/Assets/image_3.jpg") // Thumbnail for Dashb
 global.menu_pic = "https://i.ibb.co/PhDcZTM/Thumbnail.png";
 
 global.message = {
-    success: "✅ 𝚂𝚞𝚌𝚌𝚎𝚜𝚜! 𝙾𝚙𝚛𝚊𝚝𝚒𝚘𝚗 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍.",
-    admin: "*👤 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- Dear, this command is only for Admins. You have to be a admin in this group to use this command.",
+    success: "✅ Ho gaya babu❤️! 𝙾𝚙𝚛𝚊𝚝𝚒𝚘𝚗 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍🪄.",
+    admin: "*👤 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- Dear, this command is only for Admins babus🌝. You have to be a admin in this group to use this command.",
     botAdmin: "*🤖 B𝙾𝚃 A𝙳𝙼𝙸𝙽 N𝙴𝙴𝙳𝙴𝙳!*\n\n- I'm not an Admin, so I can't execute this command in this group. Please make me an Admin.",
     owner: "*👑 O𝚆𝙽𝙴𝚁 N𝙴𝙴𝙴𝙳𝙴𝙳!*\n\n- Bruh, this command is only made for this bot's owner. So you can't use this command.",
     group: "*👥 G𝚛𝚘𝚞𝚙 N𝚎𝚎𝚍𝚎𝚍!*\n\n- This command can only be executed in a group chat.",
     private: 'This command is only for private chats.',
-    wait: '🔄 Processing request...',
+    wait: '🔄 Zara sabar karo babu sona🥰...Processing request...',
     link: 'I need a link to process this command.',
-    error: "❌ Oops! An error occurred while processing your request. Please try again later.",
+    error: "❌ Baka! An error occurred while processing your request. Please try again later.",
     ban: `You're banned from using this bot!`,
     nsfw: 'This group is not *NSFW* enabled.',
     banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
@@ -96,11 +96,11 @@ module.exports = {
   packname: process.env.PackName || "Queen Anya v2 MD",
   myweb: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
+  prefa: process.env.Prefix || ['.'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
-  instagramId: process.env.Insta || "8.08_only_mine",
+  ownername: process.env.Owner_Name || "Taebearxd",
+  ownernumber: process.env.Owner_Number || "917439317360",
+  instagramId: process.env.Insta || "",
   warns: process.env.Warns_Limits || 3,
   mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
